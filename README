@@ -1,3 +1,8 @@
-Before using, symlink the .vimrc file
+To use this config, do the following:
 
+cd ~/
+clone this repo
 ln -s ~/.vim/vimrc ~/.vimrc
+cd ~/.vim
+git submodule init
+git submodule update
