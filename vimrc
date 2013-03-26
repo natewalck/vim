@@ -4,14 +4,19 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-# Let Vundle manage itself
+"Let Vundle manage itself
 Bundle 'gmarik/vundle'
 
-# My Bundles via github repos
+" My Bundles via github repos
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
 Bundle 'klen/python-mode'
+" Snipmate Dependencies
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "honza/snipmate-snippets"
+" And Snipmate
 Bundle 'snipmate-snippets'
 Bundle 'godlygeek/tabular'
 Bundle 'rodjek/vim-puppet'
@@ -19,7 +24,7 @@ Bundle 'tpope/vim-rails'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'garbas/vim-snipmate'
 
-# vim-scripts repos
+" vim-scripts repos
 Bundle 'Colour-Sampler-Pack'
 Bundle 'ScrollColors'
 
