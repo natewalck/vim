@@ -17,7 +17,6 @@ Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 Bundle "honza/snipmate-snippets"
 " And Snipmate
-Bundle 'snipmate-snippets'
 Bundle 'godlygeek/tabular'
 Bundle 'rodjek/vim-puppet'
 Bundle 'tpope/vim-rails'
