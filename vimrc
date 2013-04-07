@@ -12,6 +12,8 @@ Bundle 'Valloric/YouCompleteMe'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
 Bundle 'klen/python-mode'
+Bundle 'tpope/vim-fugitive'
+Bundle 'Lokaltog/vim-powerline'
 " Snipmate Dependencies
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
