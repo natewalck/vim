@@ -53,8 +53,9 @@ endif
 augroup myfiletypes
     " Clear old autocmds in group
     autocmd!
+    autocmd BufRead,BufNewFile *.plist set filetype=plist
     " autoindent with two spaces, always expand tabs
     autocmd FileType ruby,eruby,yaml nu ai sw=2 sts=2 ts=2 bs=2 columns=100 lines=70 smarttab omnifunc=rubycomplete#Complete 
-    autocmd FileType python set tabstop=4 shiftwidth=4 sts=4 tw=80 smartindent autoindent hlsearch incsearch showmatch omnifunc=pythoncomplete#Complete
-    autocmd! BufNewFile,BufReadPre,FileReadPre *.plist set tabstop=4 shiftwidth=4 sts=4 tw=80 smartindent autoindent hlsearch incsearch showmatch
+    autocmd FileType python set ts=4 sw=4 sts=4 tw=80 smartindent autoindent hlsearch incsearch showmatch omnifunc=pythoncomplete#Complete
+    autocmd FileType plist set ts=4 sw=4 sts=4 tw=80 smartindent autoindent hlsearch incsearch showmatch
 augroup END
