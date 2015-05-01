@@ -46,6 +46,8 @@ if has('gui_running')
     set guifont=Inconsolata:h14
 endif
 
+set ts=4 sw=4 sts=4 tw=80
+
 augroup myfiletypes
     " Clear old autocmds in group
     autocmd!
