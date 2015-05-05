@@ -1,8 +1,0 @@
-To use this config, do the following:
-
-cd ~/
-clone this repo
-ln -s ~/.vim/vimrc ~/.vimrc
-cd ~/.vim
-Install Vundle
-run :PluginInstall
