@@ -9,7 +9,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " My Plugins via github repos
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/syntastic'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-surround'
@@ -24,6 +24,8 @@ Plugin 'vim-ruby/vim-ruby'
 " vim-scripts repos
 Plugin 'Colour-Sampler-Pack'
 Plugin 'ScrollColors'
+
+call vundle#end()
 
 filetype plugin indent on
 
